@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmauritsson/portfolio.git"
+  },
+  "author": "Leonard Kanyesigye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmauritsson/portfolio/issues"
+  },
+  "homepage": "https://github.com/rmauritsson/portfolio#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
