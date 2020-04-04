@@ -1,0 +1,46 @@
+*,
+*::before,
+*::before{
+  box-sizing: border-box;
+}
+
+/********* Custom Properties ******/
+:root{
+  --ff-primary: 'Muli', sans-serif;
+  --ff-secondary: 'Montserrat';
+
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #00acee;
+
+  --fs-h1:3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
+        0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+}
+
+/********* general designs ******/
+body{
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  line-height: 1.5;
+}
+
+.navbar {
+  min-height: 70px;
+  box-shadow: var(--bs);
+}
+
+.logo{
+  background: linear-gradient(90deg,#e80a89,#f15b2a);
+  border: none;
+  font-weight: --fw-bold;
+}
